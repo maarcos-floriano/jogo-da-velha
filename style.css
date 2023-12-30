@@ -1,0 +1,49 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Add your custom styles below this line */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100vw;
+    background-color: #c5c5c5;
+}
+
+main{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.casa{
+    width: 33.33%;
+    height: 100%;
+    border: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
